@@ -1,5 +1,15 @@
 # Change log
 
+## [Version 2.4.8](https://github.com/efremidze/Cluster/releases/tag/2.4.8)
+Released on 2019-03-18
+
+- Improved error handling
+
+## [Version 2.4.7](https://github.com/efremidze/Cluster/releases/tag/2.4.7)
+Released on 2019-03-14
+
+- Performance improvements
+
 ## [Version 2.4.6](https://github.com/efremidze/Cluster/releases/tag/2.4.6)
 Released on 2019-03-07
 
