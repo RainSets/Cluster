@@ -1,5 +1,15 @@
 # Change log
 
+## [Version 3.0.0](https://github.com/efremidze/Cluster/releases/tag/3.0.0)
+Released on 2019-04-24
+
+- Swift 5.0 support
+
+## [Version 2.4.9](https://github.com/efremidze/Cluster/releases/tag/2.4.9)
+Released on 2019-04-01
+
+- Memory management improvements
+
 ## [Version 2.4.8](https://github.com/efremidze/Cluster/releases/tag/2.4.8)
 Released on 2019-03-18
 

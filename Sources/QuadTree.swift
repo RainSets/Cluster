@@ -100,7 +100,7 @@ extension QuadTreeNode: AnnotationsContainer {
     func remove(_ annotation: MKAnnotation) -> Bool {
         guard rect.contains(annotation.coordinate) else { return false }
         
-        _ = annotations.map { $0.coordinate }.index(of: annotation.coordinate).map { annotations.remove(at: $0) }
+        _ = annotations.map { $0.coordinate }.firstIndex(of: annotation.coordinate).map { annotations.remove(at: $0) }
         
         switch type {
         case .leaf: break
@@ -120,7 +120,7 @@ extension QuadTreeNode: AnnotationsContainer {
         case .leaf:
             type = .internal(children: Children(parentNode: self))
         case .internal:
-            assertionFailure("Calling subdivide on an internal node")
+            preconditionFailure("Calling subdivide on an internal node")
         }
     }
     
